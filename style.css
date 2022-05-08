@@ -1,0 +1,328 @@
+@-webkit-keyframes Animation {
+    0%{background-position:20% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:20% 20%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:20% 20%}
+    50%{background-position:100% 100%}
+    100%{background-position:20% 20%}
+}
+@keyframes Animation { 
+    0%{background-position:30% 20%}
+    50%{background-position:100% 50%}
+    100%{background-position:30% 20%}
+}
+body{
+    background: rgb(228, 213, 198);
+    background: linear-gradient(90deg, rgb(206, 187, 168) 50%, rgb(44, 82, 92) 100%);
+    padding:2px;
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+    
+}
+
+.logoHF{
+    padding: 10px;
+    transition: 1s;
+}
+
+.logoHF:hover{
+    padding: 10px;
+    -webkit-transform: scale(110%);
+    transition: 1s;
+}
+ul{
+padding-left: 0%;
+}
+a{
+    color: black;
+
+}
+.center {
+    text-align: center;
+  }
+.bannerTitulo{
+    background: rgb(252,194,136);
+    background-image:url(../img/Fto\ local.png) ,radial-gradient(circle, rgb(220, 197, 192) 15%, rgb(172, 40, 46) 250%);
+    background-blend-mode: multiply,darken;
+    background-size: 1200px;
+    background-position: right;
+    border-radius: 10px;
+    border-width: 2px;
+    /*
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin: 3px;
+    */
+    -webkit-animation: Animation 100s ease infinite;
+    -moz-animation: Animation 100s ease infinite;
+    animation: Animation 100s ease infinite;
+
+}
+
+a{
+    text-decoration:none;
+}
+.banner{
+    background-position: center;
+    background-size: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    /*border-style: solid;
+    border-color: black;
+    margin: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;*/
+    text-align: center;
+    /*border-radius: 10px;
+    border-width: 2px;*/
+}
+
+/* Fotos de Banners */
+/* CAFE */
+.backTit1{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Cafe.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit1:hover, .backTit1:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Cafe.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* DESAYUNO */
+.backTit2{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Desayuno.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit2:hover, .backTit2:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Desayuno.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* PASTELERIA */
+.backTit3{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pastelería.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit3:hover, .backTit3:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pastelería.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* TOSTADOS */
+.backTit4{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ tostados.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit4:hover, .backTit4:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ tostados.png);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* BRUSCHETTAS */
+.backTit5{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Bruschettas.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit5:hover, .backTit5:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Bruschettas.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* TARTAS */
+.backTit6{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit6:hover, .backTit6:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+
+/* PICADAS */
+.backTit7{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Picadas.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit7:hover, .backTit7:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Picadas.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* PIZZAS */
+.backTit8{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pizzas.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit8:hover, .backTit8:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pizzas.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+/* BEBIDAS */
+.backTit9{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ bebidas.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+.backTit9:hover, .backTit9:focus{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ bebidas.jpeg);
+    background-position: center;
+    background-size: cover;    
+    -webkit-transform: scale(101%);
+    transition: 0.2s;
+}
+
+/* TERMINA BANNER */
+.precio{
+    text-align: center;
+    display:block;
+    align-items: flex-end;
+    font-size: 12px;
+    margin: 0,5%;
+    font-weight: bold;
+}
+.aclaracion{
+    text-align: center;
+    display:block;
+    align-items: flex-end;
+    font-size: 12px;
+    color: #444444;
+    margin: 1%;
+    font-weight: normal;
+
+}
+/*---------Banner Burguer------------*/
+#banner1 a:hover, a:focus{
+    background-color: rgba(162, 199, 221, 0.644);
+    border-radius: 10px;
+    /*border-style: solid;*/
+    border-width: 1px;
+    /*padding: 6px;*/
+    transition: 0.3s;
+}
+#banner1 ul ul{
+    display:none;
+    list-style: none;
+    font-weight: bold;
+}
+
+#banner1 ul:hover ul, ul:focus ul{
+    display: block;
+    margin: 10px;
+}
+
+/* Sub Banner Despliegue Uno*/
+
+.sub-banner1{
+    text-align: center;  
+    margin: 3%;
+}
+li.primer_banner li.sub-banner1 {
+    display:none;
+}
+li.primer_banner:hover li.sub-banner1, li.primer_banner:focus {
+    display:block;
+}
+li.sub-banner1 li.cont{
+    display:none;
+}
+li.sub-banner1:hover li.cont, li.sub-banner1:focus{
+    display:block;
+    text-align: left;
+}
+.categTitulo{
+    font-family: 'Waterfall', cursive;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgb(33, 84, 87); /* blanco con borde negro*/
+    /*background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;*/
+}
+.categSubTitulos{
+    font-family: 'Dancing Script', cursive;
+    /*font-family: Gobold;*/
+    font-size: 40px;
+    font-weight: bold;
+    /*background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;*/
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.categContenidos{
+    font-family: Gobold;
+    font-size: 15px;
+}
+@font-face {
+    font-family: Gobold;
+    src: url(../img/Gobold-Lowplus.otf);
+}
+@media only screen and (min-width:200px) and (max-width:768px){
+	.form-register{
+		width: 95%;
+	}
+}
+/*       DATOS DE CONTACTO         */
+#info{
+    font-family: 'Waterfall', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin:10px;
+    margin-top: -10px;
+}
+#iconito{
+    margin-top: -10px;
+    max-width: 8%;
+    max-height: 8%;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+#easter{
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    text-align: right;
+}
